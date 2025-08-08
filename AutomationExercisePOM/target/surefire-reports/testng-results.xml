@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T01:07:49 IST" name="AutomationExerciseSuite" finished-at="2025-08-08T01:08:22 IST" duration-ms="33228">
+    <groups>
+    </groups>
+    <test started-at="2025-08-08T01:07:49 IST" name="ProductTests" finished-at="2025-08-08T01:08:22 IST" duration-ms="33228">
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@76508ed1]" started-at="2025-08-08T01:08:15 IST" name="setup" finished-at="2025-08-08T01:08:20 IST" duration-ms="4614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCartAndVerify()[pri:2, instance:tests.CartTest@76508ed1]" started-at="2025-08-08T01:08:20 IST" name="testAddToCartAndVerify" finished-at="2025-08-08T01:08:22 IST" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartAndVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@76508ed1]" started-at="2025-08-08T01:08:22 IST" name="tearDown" finished-at="2025-08-08T01:08:22 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@418e7838]" started-at="2025-08-08T01:07:49 IST" name="setup" finished-at="2025-08-08T01:08:10 IST" duration-ms="20808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProductSearch()[pri:1, instance:tests.SearchTest@418e7838]" started-at="2025-08-08T01:08:10 IST" name="testProductSearch" finished-at="2025-08-08T01:08:15 IST" duration-ms="5042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@418e7838]" started-at="2025-08-08T01:08:15 IST" name="tearDown" finished-at="2025-08-08T01:08:15 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- ProductTests -->
+  </suite> <!-- AutomationExerciseSuite -->
+</testng-results>
